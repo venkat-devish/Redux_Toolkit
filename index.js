@@ -12,12 +12,12 @@ const unsubscribe = store.subscribe(() => {
 
 store.dispatch(fetchUsers());
 
-// store.dispatch(cakeActions.ordered());
-// store.dispatch(cakeActions.ordered());
-// store.dispatch(cakeActions.ordered());
-// store.dispatch(cakeActions.restoked(3));
+store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.restoked(3));
 
-// store.dispatch(iceCreamActions.ordered());
-// store.dispatch(iceCreamActions.ordered());
-// store.dispatch(iceCreamActions.restoked(2));
+store.dispatch(iceCreamActions.ordered());
+store.dispatch(iceCreamActions.ordered());
+store.dispatch(iceCreamActions.restoked(2));
 unsubscribe();
